@@ -5,6 +5,6 @@ This is the first version of my personal portfolio I got inspiration and took so
 
 <ul>
  <li>
-https://github.com/adrianhajdin/portfolio_website <li/>
-<li> https://github.com/bchiang7/v4 <li/>
+https://github.com/adrianhajdin/portfolio_website 
+<li> https://github.com/bchiang7/v4 
 <ul/>
