@@ -37,6 +37,12 @@ export const Div2 = styled.div`
   @media screen and (max-width: 727px) {
     grid-area: 2 / 2 / 3 / 5;
   }
+  @media screen and (max-width: 472px) {
+    grid-area: 2 / 1 / 3 / 6;
+    a {
+      font-size: 1.4rem;
+    }
+  }
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
@@ -46,6 +52,9 @@ export const Div3 = styled.div`
   @media screen and (max-width: 727px) {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+  }
+  @media screen and (max-width: 472px) {
+    grid-area: 1 / 3 / 2 / 4;
   }
 `;
 export const NavLink = styled.a`
