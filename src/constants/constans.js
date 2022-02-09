@@ -1,8 +1,10 @@
+import ecomerce from "../assets/images/E-commerceImage.png";
+import countryFinder from "../assets/images/CountryFinderImage.png";
 export const projects = [
   {
     id: 1,
     title: "CountryFinder",
-    img: "CountryFinderImage.png",
+    img: countryFinder,
     description:
       "It is a web application that allows you to find out any country in the world, you can sort and filter by country name, population, alphabetic, and also you can add activities to each country and you can see the activities in the country.",
     tags: [
@@ -20,7 +22,7 @@ export const projects = [
   {
     id: 2,
     title: "E-commerce",
-    img: "E-commerceImage.png",
+    img: ecomerce,
     description:
       "It was a web application developed by a team. It is a e-commerce website with admin role, user role and guest role, cart, checkout, and payment.",
     tags: [

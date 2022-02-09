@@ -15,3 +15,15 @@ export const SocialIconsContainer = styled.div`
     width: 100%;
   }
 `;
+export const Mail = styled.a`
+  max-width: 1040px;
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+`;

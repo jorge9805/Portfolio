@@ -7,15 +7,15 @@ import {
   NavLink,
   SocialIcons,
 } from "./MenuStyles";
+import logo from "../../assets/images/logo.png";
+import resume from "../../assets/resume.pdf";
 import { ExternalLink } from "../../styles/GlobalStyleComponents";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck, DiJqueryLogo } from "react-icons/di";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 const Menu = () => {
   return (
     <Container id="Menu">
       <Div1>
-        <img src={"logo.png"} alt="logo" width={"27rem"} height={"27rem"} />
+        <img src={logo} alt="logo" width={"27rem"} height={"27rem"} />
       </Div1>
       {/* <DiCssdeck size="4rem" style={{ marginLeft: "1.5rem" }} /> */}
       <Div2>
@@ -39,7 +39,7 @@ const Menu = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillGithub size="3rem" />
+          <AiFillGithub size="2.7rem" />
         </SocialIcons>
 
         <SocialIcons
@@ -47,10 +47,12 @@ const Menu = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillLinkedin size="3rem" />
+          <AiFillLinkedin size="2.7rem" />
         </SocialIcons>
-
-        <ExternalLink href="resume.pdf" target={"_blank"}>
+        <SocialIcons href="mailto: jorgecuadradovelasquez@gmail.com">
+          <AiOutlineMail size="2.7rem" />
+        </SocialIcons>
+        <ExternalLink href={resume} target={"_blank"}>
           Resume
         </ExternalLink>
       </Div3>

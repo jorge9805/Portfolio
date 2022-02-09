@@ -5,7 +5,7 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalStyleComponents";
-import { SocialIconsContainer } from "./ContactStyles";
+import { Mail, SocialIconsContainer } from "./ContactStyles";
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 import Fade from "react-reveal/Fade";
 const Contact = () => {
@@ -36,6 +36,9 @@ const Contact = () => {
             <AiOutlineMail size="4rem" />
           </SocialIcons>
         </SocialIconsContainer>
+        <Mail href="mailto: jorgecuadradovelasquez@gmail.com">
+          jorgecuadradovelasquez@gmail.com
+        </Mail>
       </Section>
     </Fade>
   );
