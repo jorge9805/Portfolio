@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/Portfolio/static/js/main.bd0742b4.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.bd0742b4.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.d42ba3c3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d42ba3c3.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
-    "static/js/2.a9840d00.chunk.js": "/Portfolio/static/js/2.a9840d00.chunk.js",
-    "static/js/2.a9840d00.chunk.js.map": "/Portfolio/static/js/2.a9840d00.chunk.js.map",
+    "static/js/2.258d7971.chunk.js": "/Portfolio/static/js/2.258d7971.chunk.js",
+    "static/js/2.258d7971.chunk.js.map": "/Portfolio/static/js/2.258d7971.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/js/2.a9840d00.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a9840d00.chunk.js.LICENSE.txt"
+    "static/js/2.258d7971.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.258d7971.chunk.js.LICENSE.txt",
+    "static/media/CountryFinderImage.0676f704.png": "/Portfolio/static/media/CountryFinderImage.0676f704.png",
+    "static/media/E-commerceImage.9cce726c.png": "/Portfolio/static/media/E-commerceImage.9cce726c.png",
+    "static/media/resume.eaee6c6b.pdf": "/Portfolio/static/media/resume.eaee6c6b.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.c65a14fc.js",
-    "static/js/2.a9840d00.chunk.js",
-    "static/js/main.bd0742b4.chunk.js"
+    "static/js/2.258d7971.chunk.js",
+    "static/js/main.d42ba3c3.chunk.js"
   ]
 }
