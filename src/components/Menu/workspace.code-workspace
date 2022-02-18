@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "Portfolio",
+      "path": "..\\..\\..\\.."
+    },
+    {
+      "name": "ReactNative",
+      "path": "..\\..\\..\\..\\..\\ReactNative"
+    },
+    {
+      "name": "PI-Countries-main",
+      "path": "..\\..\\..\\..\\..\\PI-Countries-main"
+    },
+    {
+      "name": "Password_Generator",
+      "path": "..\\..\\..\\..\\..\\Password_Generator"
+    },
+    {
+      "name": "LolApp",
+      "path": "..\\..\\..\\..\\..\\LolApp"
+    },
+    {
+      "name": "ReactUdemy",
+      "path": "..\\..\\..\\..\\..\\ReactUdemy"
+    },
+    {
+      "name": "PruebasJS",
+      "path": "..\\..\\..\\..\\..\\PruebasJS"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\Test"
+    }
+  ],
+  "settings": {}
+}
