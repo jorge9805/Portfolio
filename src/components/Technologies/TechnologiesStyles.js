@@ -34,6 +34,9 @@ export const Technology = styled.p`
   font-weight: bold;
   color: #dce3e7;
   padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
   ${
     "" /* @media screen and (max-width: 768px) {
     font-size: 2rem;

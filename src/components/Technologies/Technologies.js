@@ -2,12 +2,18 @@ import React from "react";
 import {
   DiCss3,
   DiHtml5,
-  DiJavascript,
+  DiJavascript1,
   DiPostgresql,
   DiReact,
 } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import { SiRedux, SiExpress } from "react-icons/si";
+import {
+  SiRedux,
+  SiExpress,
+  SiJavascript,
+  SiTailwindcss,
+  SiBootstrap,
+} from "react-icons/si";
 import {
   SectionTitle,
   SectionDivider,
@@ -36,7 +42,7 @@ const Technologies = () => {
           </TechnologyCard>
           <TechnologyCard>
             <Technology>
-              <DiJavascript /> JavaScript
+              <SiJavascript /> JavaScript
             </Technology>
           </TechnologyCard>
           <TechnologyCard>
@@ -61,12 +67,22 @@ const Technologies = () => {
           </TechnologyCard>
           <TechnologyCard>
             <Technology>
-              <DiHtml5 /> Html5
+              <DiHtml5 /> HTML5
             </Technology>
           </TechnologyCard>
           <TechnologyCard>
             <Technology>
-              <DiCss3 /> Css
+              <DiCss3 /> CSS
+            </Technology>
+          </TechnologyCard>
+          <TechnologyCard>
+            <Technology>
+              <SiTailwindcss /> Tailwind
+            </Technology>
+          </TechnologyCard>
+          <TechnologyCard>
+            <Technology>
+              <SiBootstrap /> Bootstrap
             </Technology>
           </TechnologyCard>
         </TechnologiesContainer>

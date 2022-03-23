@@ -1,8 +1,18 @@
 import ecomerce from "../assets/images/E-commerceImage.png";
 import countryFinder from "../assets/images/CountryFinderImage.png";
+import lolapp from "../assets/images/LolAppImage.png";
 export const projects = [
   {
     id: 1,
+    title: "LOL-app",
+    img: lolapp,
+    description:
+      "A web application that allows you to login with your nickname and choose your profile icon. The application is based on the League of Legends API. You can filteer and serach a chamion and see their lore and abilities",
+    tags: ["React", "Tailwind", "React-router", "useContext"],
+    source: "https://github.com/jorge9805/lol-app",
+  },
+  {
+    id: 2,
     title: "CountryFinder",
     img: countryFinder,
     description:
