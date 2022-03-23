@@ -1,6 +1,6 @@
 import ecomerce from "../assets/images/E-commerceImage.png";
 import countryFinder from "../assets/images/CountryFinderImage.png";
-import lolapp from "../assets/images/LolAppImage.png";
+import lolapp from "../assets/images/LolImg.png";
 export const projects = [
   {
     id: 1,
