@@ -2,9 +2,9 @@ import React from "react";
 import {
   DiCss3,
   DiHtml5,
-  DiJavascript1,
   DiPostgresql,
   DiReact,
+  DiMongodb,
 } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import {
@@ -13,6 +13,7 @@ import {
   SiJavascript,
   SiTailwindcss,
   SiBootstrap,
+  SiReact,
 } from "react-icons/si";
 import {
   SectionTitle,
@@ -63,6 +64,16 @@ const Technologies = () => {
           <TechnologyCard>
             <Technology>
               <SiExpress /> Express
+            </Technology>
+          </TechnologyCard>
+          <TechnologyCard>
+            <Technology>
+              <DiMongodb /> MongoDB
+            </Technology>
+          </TechnologyCard>
+          <TechnologyCard>
+            <Technology>
+              <SiReact /> React Native
             </Technology>
           </TechnologyCard>
           <TechnologyCard>

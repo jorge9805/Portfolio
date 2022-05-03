@@ -23,7 +23,7 @@ export const Typwriter = styled.span`
   white-space: nowrap;
   border-right: 4px solid;
   border-color: transparent;
-  width: 11ch;
+  width: 12ch;
   height: 4rem;
   overflow: hidden;
   animation: typing 2s steps(15), blink 0.5s step-end 15 alternate;

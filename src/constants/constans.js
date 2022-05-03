@@ -1,5 +1,6 @@
 import ecomerce from "../assets/images/E-commerceImage.png";
 import countryFinder from "../assets/images/CountryFinderImage.png";
+import passwordGenerator from "../assets/images/passwordGeneratorImage.png";
 import lolapp from "../assets/images/LolImg.png";
 export const projects = [
   {
@@ -10,6 +11,7 @@ export const projects = [
       "A web application that allows you to login with your nickname and choose your profile icon. The application is based on the League of Legends API. You can filteer and serach a chamion and see their lore and abilities",
     tags: ["React", "Tailwind", "React-router", "useContext"],
     source: "https://github.com/jorge9805/lol-app",
+    visit: "https://jorge9805.github.io/lol-app/",
   },
   {
     id: 2,
@@ -30,7 +32,7 @@ export const projects = [
     visit: "https://country-finder-seven.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "E-commerce",
     img: ecomerce,
     description:
@@ -47,6 +49,16 @@ export const projects = [
       "Cloudinary",
     ],
     visit: "https://ecommerce-machi.netlify.app",
+  },
+  {
+    id: 4,
+    title: "Password Generator",
+    img: passwordGenerator,
+    description:
+      "It is a web application that allows you to generate a random password with some settings .",
+    tags: ["React", "Bootstrap"],
+    source: "https://github.com/jorge9805/Password-Generator",
+    visit: "https://jorge9805.github.io/Password-Generator/",
   },
   // {
   //   id: 3,
